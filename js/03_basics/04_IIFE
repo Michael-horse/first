@@ -1,0 +1,12 @@
+//Immediately invoked function expressions (IIFE)
+
+//IIFE is used to prevent pollution caused due to global scope
+(function IIRF() //named IIFE
+{
+    console.log("connected")
+})();//semicolon used to end execution
+(()=>{ //Simple IIFE
+    console.log("hi")
+}
+)();
+
